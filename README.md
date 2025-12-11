@@ -1,251 +1,131 @@
-# Smart Noise Pollution Predictor – Theoretical Project (No Code)
+# Project Name — Website Built with Claude AI
 Overview
 
-The Smart Noise Pollution Predictor is a theoretical project that explains how a system could measure environmental noise, analyze it, and predict its impact on human health. This document focuses on the concepts, workflow, and step-by-step instructions for how such a system would work, without including any programming code.
+This project is a simple website created using Claude AI as the main assistant for writing content, generating structure, and guiding the development process. The goal of this project is to show how someone with no coding background can still build a website step-by-step with the help of an AI tool.
 
-1. What the System Does
+The website contains basic pages, text, layout ideas, and instructions that were created using Claude AI’s responses.
 
-The system is designed to:
+Features
 
-Measure noise levels from sensors or microphones
+Simple multi-page website structure
 
-Analyze loudness and frequency
+Content generated with the help of Claude AI
 
-Classify the noise level (Quiet, Moderate, Loud, Hazardous)
+Clear layout instructions
 
-Predict possible health impacts
+Easy to customize and expand
 
-Provide guidance or recommendations
+Beginner-friendly workflow
 
-Allow the user to log readings and generate reports
+How the Website Was Created (Theory Only)
+1. Planning the Website
 
-This README explains the logic, design, and operational steps — not implementation code.
+Claude AI was used to:
 
-2. How the System Works (Simple Explanation)
-Step 1: Collect Noise Data
+Decide what type of website to make
 
-The system needs noise data from:
+Outline the pages (Home, About, Contact, etc.)
 
-A smartphone microphone
+Suggest colour themes and layout styles
 
-An IoT noise sensor
+Provide explanations without requiring coding knowledge
 
-A laptop microphone
+2. Creating the Content
 
-Public noise datasets (optional)
+Claude AI generated:
 
-The data contains:
+Headings
 
-How loud the sound is
+Descriptions
 
-How long the sound lasts
+Page text
 
-What frequency range the sound has
+Navigation ideas
 
-Step 2: Prepare the Noise Data
+Instructions for how each section should look
 
-Before analysis, the system transforms raw sound into useful numbers:
+3. Structuring the Website
 
-Loudness estimate (similar to dB)
+Claude AI explained:
 
-Frequency pattern (low, mid, high)
+How the pages should be arranged
 
-Duration of exposure
+Which sections should appear at the top, middle, and bottom
 
-Peaks vs average noise
+How to link pages together
 
-This is called feature extraction.
+What common website components look like
 
-Step 3: Classify the Noise Level
+4. Improving the Design
 
-Based on the extracted features, the system applies simple rules or a theoretical model:
+Claude helped describe:
 
-Noise Level	Meaning	Example
-Quiet	Safe	Quiet room
-Moderate	Normal	Office, conversation
-Loud	Stressful	Traffic, crowds
-Hazardous	Harmful	Machinery, drilling
-Step 4: Predict the Impact
+Where to place images
 
-Using health guidelines (WHO, OSHA), the system predicts:
+What fonts and colours would look better
 
-Stress levels
+How to keep the design clean and user-friendly
 
-Sleep disturbance
+How to Use This Project
+For Editing the Website
 
-Possible hearing damage
+Open the project files in your preferred editor (VS Code, GitHub codespaces, etc.).
 
-Recommended safe exposure time
+Replace the placeholder text with your own content.
 
-Step 5: Log the Data
+Follow the structure described by Claude to keep the website clean.
 
-The system stores:
+Ask Claude AI for help anytime you want to rewrite or redesign anything.
 
-Noise category
+For Learning How It Works
 
-Estimated loudness
+Read the explanations provided by Claude AI in this README.
 
-Date/time
+Understand how page structure, navigation, and layout typically work.
 
-Optional user notes
+Use Claude to generate sample website ideas or content.
 
-Recommendations
+For Publishing the Website
 
-This helps create daily or weekly noise reports.
+Claude can guide you through:
 
-Step 6: Provide Recommendations
+Uploading the files to GitHub
 
-Examples:
+Enabling GitHub Pages
 
-“Current noise may cause stress; take a short break.”
+Selecting a theme
 
-“Prolonged exposure above 85 dB may damage hearing.”
+Making your website public
 
-“Use hearing protection in this environment.”
+How to Build a New Website Using Claude AI (Step-by-Step Instructions)
 
-3. Instructions: How to Use This Theoretical System
-Step A — Start Monitoring
+Tell Claude the type of website you want
+Example: “Help me create a portfolio website.”
 
-Open the system or app.
+Ask for a page structure
+Claude will generate things like Home, About, Services, Contact, etc.
 
-Allow microphone or sensor access.
+Request content for each page
+Claude will write the text, slogans, and explanations.
 
-Begin measuring noise.
+Ask for layout descriptions
+Example: “Explain how the homepage should look.”
 
-Step B — Observe Readings
+Ask how to assemble the website
+Claude will provide a simple explanation of how the pages fit together.
 
-You will see a number representing the noise intensity (approximate).
+Ask for publishing instructions
+Claude can explain step-by-step how to upload to GitHub Pages.
 
-A category (Quiet / Moderate / Loud / Hazardous) will appear.
+Customize as needed
+Replace text, change colours, or update sections using Claude AI’s help.
 
-A short message explains what the noise level means.
+Why This Project Is Useful
 
-Step C — Add Notes (Optional)
+Helps beginners build websites without technical knowledge
 
-Users can write:
+Shows how AI can assist with planning and design
 
-“Traffic outside”
+No coding required to understand the structure
 
-“Construction noise”
-
-“Inside office room”
-
-Step D — Save Noise Report
-
-User can save:
-
-Daily summary
-
-Single reading
-
-Weekly noise exposure log
-
-Reports contain:
-
-Noise level
-
-Health impact prediction
-
-Recommendations
-
-Step E — Review History
-
-The system will help you:
-
-See trends
-
-Identify high-noise times
-
-Understand when noise becomes harmful
-
-4. Instructions for Setting Up a Real System (Concept Only)
-
-Even though we are not writing code, here is how a real implementation would be designed:
-
-1. Choose Input Device
-
-Mobile microphone
-
-IoT sensor
-
-Web browser audio API
-
-2. Collect Audio Data
-
-Use any audio source that can provide amplitude & frequency information.
-
-3. Process the Audio
-
-Extract:
-
-Loudness
-
-RMS levels
-
-Frequency characteristics
-
-4. Apply Classification Rules
-
-Example theoretical rules:
-
-Below 40 → Quiet
-
-40–70 → Moderate
-
-70–85 → Loud
-
-Above 85 → Hazardous
-
-5. Generate Prediction
-
-Compare readings with WHO guidelines.
-
-6. Store and Display Results
-
-Local history
-
-Daily summaries
-
-Weekly trends
-
-7. Provide User Guidance
-
-Explain what the noise levels mean and what safety actions to take.
-
-5. Use Cases
-
-Smart cities
-
-Health monitoring
-
-Workplace safety
-
-School science projects
-
-Environmental awareness
-
-Data science learning
-
-6. Limitations
-
-This document is theory only:
-
-No actual microphone access
-
-No real dB meter
-
-No machine learning model implemented
-
-For educational purposes only
-
-7. Future Expansion
-
-Possible real-world extensions:
-
-Real ML model for noise pattern recognition
-
-Detection of noise type (traffic, machinery, alarms)
-
-GPS-based noise maps
-
-Integration with wearable devices
+Easy to expand later
